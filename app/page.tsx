@@ -10,6 +10,11 @@ export default function Home() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <Link href="/" className="text-2xl font-bold text-white">
+      <nav className="fixed top-0 w-full bg-white border-b border-gray-200 z-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-between items-center h-16">
+            <div className="flex items-center">
+              <Link href="/" className="text-2xl font-bold text-gray-900">
                 DavaoClean AI
               </Link>
             </div>
@@ -17,6 +22,9 @@ export default function Home() {
               <Link href="/" className="text-white hover:text-gray-900">Home</Link>
               <Link href="/about" className="text-white hover:text-gray-900">About</Link>
               <Link href="/classifier" className="text-white hover:text-gray-900">Classifier</Link>
+              <Link href="/" className="text-gray-700 hover:text-gray-900">Home</Link>
+              <Link href="/about" className="text-gray-700 hover:text-gray-900">About</Link>
+              <Link href="/classifier" className="text-gray-700 hover:text-gray-900">Classifier</Link>
             </div>
             <Link href="/classifier" className="bg-black text-white px-6 py-2 rounded-md hover:bg-gray-800">
               Start
@@ -29,6 +37,8 @@ export default function Home() {
       <section className="pt-32 pb-20 px-4 bg-linear-to-b from-gray-50 to-white">
         <div className="max-w-7xl mx-auto text-center">
           <img src="/img/main.jpg" alt="DavaoClean AI" className="w-full h-full bg-no-repeat mb-10" />
+      <section className="pt-32 pb-20 px-4 bg-gradient-to-b from-gray-50 to-white">
+        <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
             Smart Waste Segregation
             <br />
