@@ -10,7 +10,7 @@ export default function AboutPage() {
   return (
     <main className="min-h-screen bg-white">
       <Navbar />
-
+      
       {/* Spacer for fixed navbar */}
       <div className="h-16" />
 

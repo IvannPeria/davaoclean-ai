@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faMicrosoft } from '@fortawesome/free-brands-svg-icons';
 
 /**
  * Footer Component
@@ -67,7 +69,37 @@ export default function Footer() {
               ))}
             </ul>
           </div>
+          
+          {/* Contact */}
+          <div>
+            <h4 className="font-semibold mb-4 text-green-200">Contact</h4>
+            <ul className="space-y-2">
+              <li>
+                <a
+                  href="https://facebook.com/allezayd1025"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-green-400 hover:text-white text-sm transition-colors"
+                >
+                  <FontAwesomeIcon icon={faFacebook} className="w-4 h-4" />
+                  Facebook
+                </a>
+              </li>
+              <li>
+                <a
+                  href="mailto:azAbusaman@mcm.edu.ph"
+                  className="flex items-center gap-2 text-green-400 hover:text-white text-sm transition-colors"
+                >
+                  <FontAwesomeIcon icon={faMicrosoft} className="w-4 h-4" />
+                  Email
+                </a>
+              </li>
+            </ul>
+          </div>
+          
+          
         </div>
+
 
         <div className="border-t border-green-800 pt-8 text-center text-green-500 text-sm">
           <p>&copy; {new Date().getFullYear()} DavaoClean AI. All rights reserved.</p>
