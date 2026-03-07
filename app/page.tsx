@@ -214,7 +214,7 @@ export default function Home() {
                 a: 'Yes! Completely free for all Davao City residents and businesses as part of our sustainable waste management initiative.',
               },
             ].map((faq, i) => (
-              <div key={i} className="border border-green-100 rounded-xl p-6 hover:border-green-300 hover:bg-green-50 transition-all">
+              <div key={i} className="border border-green-600 rounded-xl p-6 hover:border-red-500 hover:bg-green-50 transition-all">
                 <h3 className="font-semibold text-gray-900 mb-2">{faq.q}</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">{faq.a}</p>
               </div>
